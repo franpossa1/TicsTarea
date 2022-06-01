@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tarea de TICS</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div>REDES</div>
+	<div class="card">
+		<div class="circle"></div>
+		<div class="content">
+			<h2>Redes</h2>
+			<p>Una red informática, es un conjunto de equipos conectados por medio de cables, señales, ondas o cualquier otro método de transporte de datos, que comparten información, recursos (impresoras, etc.) y servicios (acceso a internet, e‐mail, chat, juegos).</p>
+
+
+		</div>
+		<img src="red.png">
+	</div>
+	<div class="card card2">
+		<div class="circle"></div>
+		<div class="content">
+		 <h2>Tipos de redes informáticas</h2>
+<br>
+<p style="font-size: 12px"><b>Redes PAN (Redes personales)</b>. Estas redes son limitadas tanto en distancia, como en número de equipos interconectados. Normalmente en una red PAN solo podremos tener dos, o como máximo, menos de una decena de equipos conectados. <br>
+
+<b>Redes LAN (local area network)</b>. Estas redes no están limitadas en número de equipos interconectados, pero sí en la distancia. Es decir, la cantidad de equipos que conectemos normalmente estará limitada a un campus.
+
+<br>
+<b> Redes MAN (Metropolitan Area Networks)</b>
+Este tipo de redes son mucho más grandes que las anteriores, pueden abarcar ciudades enteras y comunicar miles de dispositivos.
+Redes WAN (Wide Area Network). Estas redes son las más grandes de todas, y el número de dispositivos que la componen no suele ser tan limitado. Estas redes pueden abarcar estados completos, incluso países.
+<br>
+<b>Redes WAN (Wide Area Network)</b>
+Permiten interconectar redes LAN y MAN con el fin de brindar una conectividad de mayor alcance en áreas más extensas.
+
+
+</p>
+
+		</div>
+		<img  src="cables.png">
+	</div>
+<div class="card card3">
+		<div class="circle"></div>
+		<div class="content">
+			<h2>Topología de redes</h2>
+			<p>Los tipos de topología de red hacen alusión a la topología lógica mediante la cual se presentan las interconexiones entre los nodos de la red. Es una referencia a una forma geométrica o una forma lógica en la que se distribuyen las estaciones de trabajo y cada uno de los medios que las conectan. </p>
+		</div>
+		<img style="width: 300px" src="topologia.png">
+	</div>
+	<div class="card card4">
+		<div class="circle"></div>
+		<div class="content">
+			<h2>Topología de bus</h2>
+			<p>Todos los nodos están conectados directamente con un enlace y no hay ningún otro tipo de conexión entre los nodos. De manera física, cada host está conectado a un cable común, si se corta este cable los host quedan desconectados.
+</p>
+
+<h3>Ventajas</h3>
+<p>
+<ul>
+	<li>Simplicidad en su estructura
+</li>
+<li>Fácil implementarla y hacerla crecer
+
+</li>
+<li>De fácil adaptación
+</li>
+<li>No ocupa mucho espacio
+</li>
+<li>Economica
+</li>
+</ul>
+<h3>Desventajas</h3>
+<ul>
+	<li>Hay límite de nodos y está determinado por la calidad de la señal
+
+</li>
+<li>Complejidad para aislar las fallas de la red
+
+
+</li>
+<li>Si el canal sufre un inconveniente se afecta toda la red
+
+</li>
+<li>Se pierden muchos paquetes por colisiones de mensajes
+
+</li>
+
+</ul>
+</p>
+		</div>
+		<img style="width: 300px;height: 300px" src="bust.png">
+	</div>
+
+<div class="card card5">
+		<div class="circle"></div>
+		<div class="content">
+			<h2>Topología de  anillo doble</h2>
+			<p>En una topología en anillo doble hay dos anillos concéntricos, en donde cada host de la red va a estar conectado a los dos anillos, pese a que los dos anillos no van a estar conectados de modo directo entre sí. Funciona igual que una red anillo, pero con la diferencia que para aumentar la flexibilidad y confiabilidad de la red, existe un anillo redundante para conectar los mismos dispositivos.
+
+</p>
+
+<h3>Ventajas</h3>
+<p>
+<ul>
+	<li>Se pueden enviar datos en ambas direcciones
+
+
+</li>
+<li>Posee redundancia (mejor tolerancia a los fallos)
+
+
+
+
+</li>
+
+
+</ul>
+<h3>Desventajas</h3>
+<ul>
+	<li>Es más cara que la topología de anillo simple
+
+
+
+
+</li>
+
+
+</ul>
+</p>
+		</div>
+		<img style="width: 300px;height: 300px" src="dobleanillo.png">
+	</div>
+
+
+
+<div class="card card6">
+		<div class="circle"></div>
+		<div class="content">
+			<h2>Topología de estrella </h2>
+			<p>Tiene un nodo central a partir del cual se irradian los demás enlaces hacia los otros nodos. Es en el nodo central por donde la información que circula por la red pasa. Esta red no presenta ningún tipo de interconexión entre las computadoras ya que toda la información pasa por el nodo central
+
+</p>
+
+<h3>Ventajas</h3>
+<p>
+<ul>
+	<li>Se pueden agregar nuevos equipos fácilmente
+
+</li>
+<li>Centraliza la red
+
+
+</li>
+<li>Fácil de encontrar fallas
+
+
+</li>
+<li>Posee una reconfiguración rápida
+
+</li>
+</ul>
+<h3>Desventajas</h3>
+<ul>
+	<li>Si falla el nodo central (hub/switch) toda la red caerá
+
+
+</li>
+<li>Costosa porque requiere más cableado que la topología en anillo
+</li>
+</ul>
+</p>
+		</div>
+		<img style="width: 300px;height: 300px" src="estrella.png">
+	</div>
+
+<div class="card card7">
+		<div class="circle"></div>
+		<div class="content">
+			<h2>Topología de arbol </h2>
+			<p style="font-size: 12px;">Es muy semejante a la topología en estrella extendida. En este caso la diferencia es que no cuenta con un nodo central, tiene un nodo de enlace troncal desde donde se ramifican los otros nodos o computadoras. Es una variación de la red de bus con la diferencia que un fallo en un nodo no significa la interrupción total de las comunicaciones.
+</p>
+
+<h3>Ventajas</h3>
+<p>
+<ul>
+	<li>Mayor rapidez
+
+
+</li>
+<li>Facilidad para resolver problemas
+
+
+
+</li>
+<li>Soportado por múltiples vendedores de Software y Hardware.
+
+
+
+</li>
+
+</ul>
+<h3>Desventajas</h3>
+<ul>
+	<li>Se requiere mucho cableado y es algo costoso
+
+
+
+</li>
+<li>Si se cae el segmento troncal toda la red caerá
+
+</li>
+<li>Si se cae el segmento troncal toda la red caerá
+
+</li>
+<li>Si se cae un nodo, todos los que estén conectados a él caerán también
+</li>
+</ul>
+</p>
+		</div>
+		<img style="width: 300px;height: 300px" src="arbol.png">
+	</div>
+
+
+<div class="card card8">
+		<div class="circle"></div>
+		<div class="content">
+			<h2>Topología de malla </h2>
+			<p style="font-size: 12px;">También conocida como topología de malla completa, implica que cada nodo se encuentra conectado a todos los demás nodos. En ese sentido, se pueden llevar los mensajes de un nodo al otro por diferentes caminos. En otras palabras, no es posible que exista alguna interrupción en las comunicaciones si se encuentra armada correctamente
+
+</p>
+
+<h3>Ventajas</h3>
+<p>
+<ul>
+	<li>Reduce el riesgo de fallos
+
+
+
+</li>
+<li>Un error en un nodo no implica la caída de toda la red
+
+
+
+
+</li>
+
+
+</ul>
+<h3>Desventajas</h3>
+<ul>
+	<li>Muy costosa ya que conectar todos los nodos entre sí requiere una gran cantidad de cables
+
+
+
+
+</li>
+<li>Utilizan una gran cantidad de recursos
+
+</li>
+
+</ul>
+</p>
+		</div>
+		<img style="width: 300px;height: 300px" src="malla.png">
+	</div>
+
+<div class="card card9">
+		<div class="circle"></div>
+		<div class="content">
+			<h2>Topología hibrida </h2>
+			<p style="font-size: 12px;">Se la conoce igualmente como topología mixta y en este caso las redes pueden usar diferentes topologías de red para conectarse entre sí. En términos prácticos, la topología híbrida o mixta es una de las más frecuentes y es una derivación de la unión de varios tipos de topología. Permite tomar las ventajas de diferentes redes para poder armar una especialmente para las necesidades del cliente.
+
+
+</p>
+
+<h3>Ventajas</h3>
+<p>
+<ul>
+	<li>Adaptado a las necesidades de cada cliente
+
+
+</li>
+<li>Permite a futuro generar ampliaciones de la red
+
+
+
+
+</li>
+
+
+</ul>
+<h3>Desventajas</h3>
+<ul>
+	<li>Muy costosa ya que requiere implementar dispositivos de adaptación entre diferentes redes
+
+
+
+</li>
+<li>Muy laboriosa ya que no solo requiere mayor tiempo de planearla sino de implementarla
+
+
+
+</li>
+
+</ul>
+</p>
+		</div>
+		<img style="width: 300px;height: 300px" src="hibrida.png">
+	</div>
+
+<div class="card card10">
+		<div class="circle"></div>
+		<div class="content">
+			<h2>Intranet e Internet  </h2>
+			<p style="font-size: 12px;"><b>Internet</b> es una red global que establece una conexión y proporciona transmisión entre varias computadoras.Es una red pública mediante la cual las computadoras se pueden conectar y transmitir entre sí. Proporciona una excelente fuente de información para el usuario.<br> <br>
+<b>Intranet</b> es una parte de Internet que es propiedad privada de una organización. Conecta todas las computadoras y brinda acceso a archivos y carpetas dentro de la red. Tiene un firewall que rodea el sistema para evitar que usuarios no autorizados accedan a la red. Sólo los usuarios autorizados tienen permiso para acceder a la red. Es una forma segura de compartir los detalles, materiales y carpetas, ya que la red está altamente protegida y restringida dentro de la organización.
+
+
+</p>
+
+
+		</div>
+		<img style="width: 300px;height: 300px" src="Intranet.png">
+	</div>
+
+<div style="width: 600px"  class="card card11">
+		<div class="circle"></div>
+		<div class="content">
+			<h2>  Tipos de conexiones en Internet </h2>
+			<p style="font-size: 12px;">
+
+
+<ul style="font-size: 11px;">
+	<li>Acceso Telefónico (Dial-Up): Funciona con un Módem que se conecta a una línea telefónica. 
+
+</li>
+<li>Acceso por ADSL. Banda Ancha por ADSL :Utiliza la línea telefónica (el clásico par de cobre), lo que facilita y abarata enormemente su implementación, y permite alcanzar velocidades bastante buenas.
+
+
+
+
+
+</li>
+<li>Acceso por Cablemodem :Esta tecnología hace uso de un canal de televisión que ofrece un mayor ancho de banda que las líneas de teléfono
+
+
+</li>
+<li>Acceso por Red de Telefonía Móvil. Acceso a Internet en Redes de Telefonía Móvil En todos los casos se utiliza la red SIM, de los chips de los celulares.GSM: La primera en ofrecer datos en celulares. Utiliza ondas de radio para la transmisión de los mismosLTE (4G): Se pueden obtener velocidades hasta 100 Mbps o 200 Mbps en algunos casos.
+
+
+</li>
+<li>Acceso Inalámbrico: Se conecta por medio de antenas y nodos se enlazan, y se transmiten los datos por ondas de radio. Esto requiere equipos diferentes y de mayor complejidad que en los servicios por cable. Suele ser utilizado para zonas donde no llegan redes de cableado y las velocidades varían entre 1 y 6 Mbps de velocidad de bajada
+
+</li>
+
+
+
+
+
+</ul>
+</p>
+
+
+		</div>
+		<img style="width: 300px;height: 300px" src="conex.png">
+	</div>
+
+
+<div  class="card card12">
+		<div class="circle"></div>
+		<div class="content">
+			<h2>  Tipos de conexiones en Internet </h2>
+			<p style="font-size: 12px;">
+
+
+<ul>
+	
+<li>Acceso Inalámbrico: Se conecta por medio de antenas y nodos se enlazan, y se transmiten los datos por ondas de radio. Esto requiere equipos diferentes y de mayor complejidad que en los servicios por cable. 
+</li>
+
+<li>Acceso Satelital:  un tipo de conexión a Internet que podemos considerar como de nicho, y que en muchas ocasiones es el último recurso para llevar Internet a aquellas zonas en las que no es posible llevar Internet de una manera más convencional. 
+
+
+</li>
+
+<li>Acceso por Fibra Optica: La fibra óptica permite ofrecer una conexión a Internet de alta velocidad y de una gran calidad.
+
+</li>
+<li>Acceso por Línea Eléctrica:La transmisión se realiza por líneas eléctricas. Este interesante método permite utilizar la misma conexión eléctrica de un lugar para la transmisión de datos, sin necesidad de invertir en nuevo cableado para su instalación 
+
+
+</li>
+
+
+
+</ul>
+</p>
+
+
+		</div>
+		<img style="width: 300px;height: 300px" src="conex.png">
+	</div>
+
+
+
+
+<div class="card card13">
+		<div class="circle"></div>
+		<div class="content">
+			<h4>LAN</h4>
+			<p style="font-size: 11px;">Es una red que cubre una única área geográfica y proporciona servicios y aplicaciones a personas dentro de una estructura organizacional común, como una empresa o una institución. Generalmente se encuentran administradas por una única organización.
+Suelen ser redes muy rápidas en las cuales cada estación se puede comunicar con el resto.
+
+
+
+</p>
+
+<h6>Ventajas</h6>
+<p>
+<ul>La infraestructura necesaria para una LAN puede variar segun:
+	<li>El tamaño del área cubierta
+
+
+</li>
+<li>El número de usuarios conectados
+
+
+
+
+</li>
+<li>El número y el tipo de servicios a brindar</li>
+
+
+</ul>
+
+</p>
+<h4>WAN</h4>
+			<p style="font-size: 11px;">Las LANs y las MANs, separadas geográficamente, se interconectan a través de una red de área extensa o WAN. Su infraestructura requiere de diversos nodos de conmutación y de una importante capacidad para soportar el volumen del tráfico de datos.
+Por lo general las organizaciones contratan este tipo de conexiones a través de proveedores de servicios de Telecomunicaciones. 
+
+
+
+</p>
+
+
+		</div>
+		<img style="width: 300px;height: 300px" src="lan.png">
+	</div>
+
+
+<div  class="card card14">
+		<div class="circle"></div>
+		<div class="content">
+			<h2>  Tipos de Red de acuerdo a su función</h2>
+			<p style="font-size: 12px;">
+<br>
+<b>Servidores</b>: Son host con un software instalado que permite proporcionar información. Por ejemplo: Servidor de paginas WEB, Servidor de Mail, Servidor de archivos, etc. Los servidores suelen coincidir con las máquinas más potentes de la red. No se utilizan como puestos de trabajo. En ocasiones, ni siquiera tienen monitor puesto que se administran de forma remota: toda su potencia está destinada a ofrecer algún servicio a los ordenadores de la red. <br><br>
+<b>Clientes</b>: Son host con software instalado que les permite solicitar y mostrar la información recibida del servidor. 
+<br>
+<br>
+<b>Modelo Cliente - Servidor</b> : Se utiliza ampliamente, ya que Forma en gran medida la base del uso de redes. Internet es una red basada en la arquitectura cliente/servidor
+
+
+</p>
+
+
+		</div>
+		<img style="width: 300px;height: 300px" src="peer.png">
+	</div>
+
+<div  class="card card15">
+		<div class="circle"></div>
+		<div class="content">
+			<h2>  Tipos de Red de acuerdo a su función</h2>
+			<p style="font-size: 11px;">
+<br>
+<b>Modo Peer to Peer (P2P)
+</b>: El tipo de comunicacion de persona a persona, se distingue de la comunicacion cliente-servidor porque no hay una division fija de clientes y/o servidores. Todos los host pueden ser Cliente o Servidor al mismo tiempo. Ejemplos: Bitorrent, Bitcoin 
+<br><br>
+<b>Redes cliente/servidor.</b>: Los papeles de cada puesto están bien definidos: uno o más ordenadores actúan como servidores y el resto como clientes. Los servidores suelen coincidir con las máquinas más potentes de la red. No se utilizan como puestos de trabajo. En ocasiones, ni siquiera tienen monitor puesto que se administran de forma remota: toda su potencia está destinada a ofrecer algún servicio a los ordenadores de la red. Internet es una red basada en la arquitectura cliente/servidor.
+
+<br>
+<br>
+<b>Redes entre iguales o Peer to Peer (P2P)</b> : No existe una jerarquía en la red: todos los ordenadores pueden actuar como clientes (accediendo a los recursos de otros puestos) o como servidores (ofreciendo recursos). Son las redes que utilizan las pequeñas oficinas, de no más de 10 ordenadores.
+
+
+
+</p>
+
+
+		</div>
+		<img style="width: 300px;height: 300px" src="peer.png">
+	</div>
+
+<div  class="card card15">
+		<div class="circle"></div>
+		<div class="content">
+			<h2>  Componentes de la Red</h2>
+			<p style="font-size: 11px;">
+<br>
+<b>HUB
+</b>: Un HUB, también llamado concentrador, es un aparato que hace de puente al que podemos conectar varios dispositivos, generalmente electrónicos, usando solo una conexión del dispositivo al que queremos conectar estos aparatos,
+<br><br>
+<b>Router</b>: Un router es un dispositivo que ofrece una conexión Wi‑Fi, que normalmente está conectado a un módem y que envía información de Internet a tus dispositivos personales, como ordenadores, teléfonos o tablets.
+
+<br>
+<br>
+<b>Switch</b> :Un switch de red o conmutador es un dispositivo de interconexión que sirve para conectar todos los equipos en una red; incluidos los computadores, las consolas, las impresoras y los servidores.
+<br>
+<br>
+<b>Modem</b> :es un dispositivo que permite el intercambio de información entre dos ordenadores usando la red telefónica
+
+
+</p>
+
+
+		</div>
+		<img style="width: 300px;height: 300px" src="router.png">
+	</div>
+
+</body>
+</html>
